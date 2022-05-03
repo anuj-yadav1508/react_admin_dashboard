@@ -1,0 +1,60 @@
+.infoPartSection {
+    width: 100%;
+    height: auto;
+}
+
+.infoPartWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoPartItem {
+    width: 23%;
+    height: 14%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.infoPartItemHeading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: .7rem 1rem;
+    color: gray;
+}
+
+.infoPartTransaction {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #444;
+    margin-left: 1rem;
+    margin-bottom: .6rem;
+    margin-right: .7rem;
+    display: flex;
+    align-items: center;
+}
+
+.infoPartTransactionSpan {
+    font-size: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.spanIcon {
+    font-size: .7rem;
+    color: red;
+    margin-left: .4rem;
+}
+
+.infoPartItemBottom {
+    padding-bottom: 1.4rem;
+    margin-left: 1rem;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 400;
+}

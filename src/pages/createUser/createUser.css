@@ -1,0 +1,101 @@
+.createUserSection {
+    width: 100vw;
+    height: auto;
+}
+
+.createUserWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.createUserLeft {
+    flex: 1;
+}
+
+.createUserRight {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.createUserRightHeading {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+
+.createUserRightForm {
+    margin: 1rem;
+    display: flex;
+    width: 90%;
+}
+
+.createUserFormLeft {
+    flex: 1;
+}
+
+.createUserRightInputGroup {
+    margin-bottom: 2rem;
+}
+
+.createUserRightLabel {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 1.3rem;
+}
+
+.createUserRightInput {
+    font-size: 1rem;
+    padding: .3rem .6rem;
+    color: gray;
+    width: 80%;
+    margin-top: 1rem;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.createUserRightRadioList {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.radioInputGroup {
+    margin-right: 1rem;
+}
+.radioListInput {
+    
+    color: gray;
+}
+
+.createUserFormRight {
+    flex: 1;
+}
+
+.createUserDropDown {
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .3rem;
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 6px;
+}
+
+/* create button */
+.createUserCreateButton {
+    margin-left: 3rem;
+    width: 30%;
+    font-size: 1rem;
+    padding: .3rem .9rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

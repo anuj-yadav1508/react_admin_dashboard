@@ -1,0 +1,35 @@
+.homeSection {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.homeWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.homeWrapperLeft {
+    flex: 1;
+}
+
+.homeWrapperRight {
+    flex: 4;
+    width: 100%;
+}
+
+.widgetSections {
+    width: 100%;
+    display: flex;
+
+}
+
+.widgetSmall {
+    flex: 2;
+}
+
+.widgetLarge {
+    flex: 4;
+}

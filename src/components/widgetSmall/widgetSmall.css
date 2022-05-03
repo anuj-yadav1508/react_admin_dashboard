@@ -1,0 +1,61 @@
+.widgetSection {
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.widgetHeading {
+    padding: 1rem ;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.widgetListItem {
+    list-style-type: none;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.widgetItemAvatar {
+    margin-right: 1rem;
+}
+
+.widgetListItemInfo {
+    margin-right: 1.2rem;
+
+}
+
+.widgetListItemUsername {
+    font-size: 1rem;
+    font-weight: 600;
+    
+    margin-bottom: .2rem;
+}
+
+.widgetListItemQualification {
+    font-size: .8rem;
+    color: gray;
+}
+
+.widgetListItemButton {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 6px;
+}
+
+.widgetVisibilityIcon {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.widgetListItemSpan {
+    font-size: 1rem;
+    color: gray;
+    margin-left: .5rem;
+    margin-right: .6rem;
+}

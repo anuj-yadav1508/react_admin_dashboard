@@ -1,0 +1,59 @@
+.editProductSection {
+    width: 100vw;
+    height: auto;
+}
+
+.editProductWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.editProductLeft {
+    flex: 1;
+}
+
+.editProductRight {
+    flex: 4;
+}
+
+.editProductRightWrapper {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.productColumn {
+    display: flex;
+    align-items: center;
+}
+
+.productColumnImage {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: .4rem;
+}
+
+.actionColumn {
+    display: flex;
+    align-items: center;
+}
+
+.editProductButton {
+    margin-left: 1.2rem;
+    font-size: .9rem;
+    padding: .2rem .4rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 1.4rem;
+}
+
+.deleteProductIcon {
+    color: red;
+    cursor: pointer;
+}
